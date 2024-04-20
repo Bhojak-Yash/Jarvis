@@ -43,7 +43,7 @@ function speak(text) {
 
     textToSpeak.rate = 1;
     textToSpeak.volume = 1;
-    textToSpeak.pitch = 4;
+    textToSpeak.pitch = -5;
 
     window.speechSynthesis.speak(textToSpeak);
 }
